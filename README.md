@@ -46,3 +46,26 @@ The graph does indicate that the median price of a new home is higher than that 
 
 ![newvsold](./pictures/newvsold.png)
 
+For future research it would be interesting to look into the reasons as to why certain cities are more expensive than others, and which neighborhoods are more likely to build newer homes. 
+
+My final model did yeild an RMSE 179K, which was around 20K less than my RFE model, almost 500k less than my Kbest model. Because of signifcant difference in RMSE, I decided that my orginal baseline model was best. 
+
+## Conculsion
+
+In this case, the simplier the model the best. I was able to conclude that location, square footage, condition, and more are all influential features in determining the price of a home. The best RMSE I was able to obatain from such features was 179K. 
+
+## Future Research 
+
+- Get more data on public transportation to see how that plays a role in home prices
+- Get school district data 
+
+## Repository Structure
+
+── data
+── housing_pred_alexandra_bruno.csv
+── King County Housing Price Predictions.ipynb
+── pickles
+── pictures
+── Predictions Notebook.ipynb
+── README.md
+── working notebooks
